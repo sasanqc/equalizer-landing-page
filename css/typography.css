@@ -1,0 +1,21 @@
+.heading-l {
+  font-weight: 700;
+  font-size: 8.8rem;
+  line-height: 8.8rem;
+  letter-spacing: -1px;
+}
+.heading-m {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.2rem;
+}
+.body-m {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 34px;
+}
+.body-s {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+}
