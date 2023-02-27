@@ -2,6 +2,124 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   color: var(--color-black);
   background: url(../assets/bg-main-desktop.png);
+}
+
+.main-body {
   max-width: 144rem;
   padding: 6.2rem 16.6rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  margin-bottom: 12.7rem;
+}
+.bg-pattern-1 {
+  position: absolute;
+  right: 0;
+  top: -4rem;
+  max-width: 31.2rem;
+  width: 31.2rem;
+  height: 46.8rem;
+  z-index: -3;
+}
+
+.description .heading-l {
+  max-width: 101.5rem;
+  margin-bottom: 4rem;
+}
+.description .body-m {
+  max-width: 82.5rem;
+  margin-bottom: 10.8rem;
+}
+.card {
+  background-color: var(--color-orange);
+  max-width: 44.6rem;
+  padding: 5.4rem;
+  color: var(--color-white);
+  border-radius: 1.2rem;
+  position: absolute;
+  right: 9.5rem;
+  top: 30.3rem;
+}
+
+.card__title {
+  margin-bottom: 2.2rem;
+}
+
+.card__body {
+  margin-bottom: 4rem;
+}
+.card__price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4.6rem;
+}
+.card__price h1 {
+  font-weight: 700;
+  font-size: 6.5rem;
+  line-height: 5.2rem;
+  margin-right: 1.6rem;
+}
+.card__btn {
+  margin-bottom: 1.6rem;
+}
+.download {
+  background-color: transparent;
+  position: relative;
+  width: 100%;
+}
+.download__image {
+  max-width: 31.2rem;
+  margin-left: 10.2rem;
+}
+.download__black-rect {
+  background-color: var(--color-black);
+  height: 60rem;
+  top: 21.3rem;
+  z-index: -2;
+  position: absolute;
+  width: 100%;
+  border-radius: 1.2rem;
+}
+.bg-pattern-2 {
+  position: absolute;
+  left: 33.6rem;
+  top: 17rem;
+  z-index: -1;
+}
+
+.footer {
+  position: relative;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
+  width: 100%;
+  align-items: center;
+  top: 37.7rem;
+  padding-bottom: 9rem;
+}
+.footer__logo {
+  /* grid-column: 1/1; */
+}
+.footer__copyright {
+  max-width: 36.6rem;
+}
+.footer__copyright span {
+  font-weight: 700;
+}
+.footer__social {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 2rem;
+}
+.footer__social a {
+  transition: fill 0.2s;
+  fill: var(--color-black);
+}
+
+.footer__social a:hover {
+  fill: var(--color-orange);
 }
