@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor | Equalizer landing page](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor | Equalizer landing page](https://www.frontendmentor.io/solutions/equalizer-landing-page-90JI7F7bjP)
 - Live Site URL: [Equalizer landing page](https://sasanqc.github.io/equalizer-landing-page/)
 
 ## My process
